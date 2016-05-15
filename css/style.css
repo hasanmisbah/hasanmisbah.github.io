@@ -242,5 +242,18 @@ a.btn-default:hover, a.btn-default:focus {
 a.btn-default:hover:after {
     width: 100%;
 }
+button a {
+	color: #fff;
+}
+button a:hover {
+	color: #fff;
+}
 
 /*End Contact*/
+/*--footer--*/
+footer{
+	padding: 5px;
+	background: rgba(0,0,0, 0.5);
+	color: #fff;
+}
+/*--end footer--*/

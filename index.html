@@ -49,6 +49,25 @@
     <![endif]-->
 </head>
 <body>
+	<!-- Facebook SDK -->
+	<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '244169435941663',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+	<!-- End Facebook SDK -->
 	<!-- main navigation -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -175,9 +194,11 @@
 					<h1>CONTACT</h1>
 					<div class="col-sm-4">
 						<h1 class="lead">Wanna Say Hello! to me?</h1>
+						<h4>Feel Free to knock me</h4>
+						<button class="btn btn-primary" role="button"> <a target="_new" href="https://hasanmisbah.wordpress.com/contact/"><i class="fa fa-inbox"></i> On my Email</a></button>
 					</div>
 					<div class="col-sm-4">
-						<h2>Social Profile</h2>
+						<h3>or my Social Profile</h3>
 						<div class="row">
 							<div class="social-cont">
 								<a class="btn btn-default btn-lg linkedin-btn" href="https://linkedin.com/hasanmisbah" role="button" target="_blank"><i class="fa fa-linkedin"></i><span>Linked In</span></a>
@@ -189,16 +210,21 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-sm-4">
+						
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- End Contact -->
 	<!-- Start Copyright info -->
-	<footer class="navbar-fixed-bottom">
+	<footer>
 		<div class="container">
 			<div class="row">
-				<h4>Copyright &copy; Hasan Misbah, no right reserved.</h4>
+				<div class="col-sm-6">
+					<h4>Copyright &copy; Hasan Misbah, all right reserved.</h4>
+				</div>
 			</div>
 		</div>
 	</footer>
