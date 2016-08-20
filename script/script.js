@@ -5,3 +5,6 @@ $(document).ready(function(){
 		},6000);
 	});
 });
+$(document).on('load',function(){
+    $('section').animate();
+});
