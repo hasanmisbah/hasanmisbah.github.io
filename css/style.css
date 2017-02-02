@@ -22,8 +22,20 @@ body {
 
 
 /*Navbar*/
-
-
+nav.navbar-default{
+    background-color: rgba(255,255,255,0.7);
+    color: #008080;
+    border-color:  #008080;
+}
+nav.navbar-default ul li a{
+    color: #008080;
+    font-size: 1.1em;
+}
+nav.navbar-default .navbar-brand{
+    color: #008080;
+    font-weight: bold;
+    font-size: 1.8em;
+}
 /*/Navbar*/
 
 #main {
