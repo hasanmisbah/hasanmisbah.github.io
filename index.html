@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
     <!-- Some meta Data -->
@@ -41,7 +40,7 @@
 
     <meta name="keywords" content="Web Developer, WordPress Developer, Front-end Developer, Web Designer, Graphics Designer, Web Developer From Sylhet, Web Developer From Bangladesh" />
     <meta name="author" content="Hasan Misbah">
-    <meta name="robots" content="index, nofollow">
+    <meta name="robots" content="index, follow">
     <link rel="author" href="https://plus.google.com/109579759980355127812" />
 
     <!-- Facebook Meta Data -->
@@ -66,7 +65,7 @@
 
     <!-- Css -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href='//cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -97,6 +96,18 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+
+    <!-- Facebook widget -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=244169435941663";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Facebook widget -->
+
     <!-- main navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -106,9 +117,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="http://hasanmisbah.com/">Hasan Misbah</a>
+                <a class="navbar-brand" href="http://hasanmisbah.com/"><img src="https://secure.gravatar.com/avatar/e91c9888a56274089bd2f3440461b63d?s=32" alt="">Hasan Misbah</a>
             </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="collapse navbar-collapse" id="mynavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="page-scroll" href="#main"><i class="fa fa-home"></i> Home</a></li>
                     <li><a class="page-scroll" href="#about"><i class="fa fa-info"></i> About</a></li>
@@ -126,11 +137,12 @@
             <div class="container">
                 <div class="col-sm-12 col-lg-12">
                     <div class="home">
-                        <img id="main-img" class="img-responsive img-circle" src="https://secure.gravatar.com/avatar/e91c9888a56274089bd2f3440461b63d?s=250" alt="Image of Misbah's Mask">
+                        <img id="main-img" class="img-responsive img-circle" src="https://secure.gravatar.com/avatar/e91c9888a56274089bd2f3440461b63d?s=250">
                         <h1 class="text-center">Hasan Misbah</h1>
                         <h4 class="text-center">Front-End Developer - WordPress Fanatic</h4>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -287,8 +299,23 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-sm-6">
                     <h4>Copyright &copy; Hasan Misbah, all right reserved.</h4>
+                </div>
+                <div class="col-sm-6">
+
+                    <ul class="nav nav-pills">
+                        <li>
+                            <a href="https://twitter.com/hasanmisbah01" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @hasanmisbah01</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="https://facebook.com/hasanmisbah" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                        </li>
+                        <li>
+                            <a class="github-button" href="https://github.com/hasanmisbah" data-style="mega" aria-label="Follow @hasanmisbah on GitHub">Follow @hasanmisbah</a>
+                        </li>
+                        <li><div class="g-follow" data-annotation="none" data-height="24" data-href="//plus.google.com/u/0/109579759980355127812" data-rel="author"></div></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -297,7 +324,7 @@
 
     <!-- JavaScript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     
@@ -306,6 +333,11 @@
 
 
     <script type="text/javascript" src="script/script.js"></script>
+
+
+    <!-- github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- /github buttons -->
 
     <!-- Google analytics -->
     <script>
@@ -319,6 +351,10 @@
 
     </script>
     <!-- end Google analytics -->
+
+    <!-- google plus -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <!-- /google plus -->
 
     <!-- New relic -->
     <script type="text/javascript">

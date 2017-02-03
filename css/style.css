@@ -36,6 +36,9 @@ nav.navbar-default .navbar-brand{
     font-weight: bold;
     font-size: 1.8em;
 }
+nav.navbar-default .navbar-brand img{
+    display: inline-block;
+}
 /*/Navbar*/
 
 #main {
@@ -256,7 +259,7 @@ ul.icon li i{
     font-weight: 400;
 }
 .social-cont {
-    max-width: 600px;
+    max-width: 500px;
     font-size: 13px;
 }
 a.btn-default {
@@ -345,4 +348,7 @@ footer{
     ul.icon li{
         width: 100%;
     }
+    .social-cont {
+    max-width: 500px;
+    font-size: 13px;
 }
